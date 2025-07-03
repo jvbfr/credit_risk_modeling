@@ -1,0 +1,21 @@
+[project]
+name = "fpd30_prediction"
+version = "0.1.0"
+dependencies = [
+    "numpy==1.24.4",
+    "matplotlib==3.7.4",
+    "seaborn==0.12.2",
+    "geopy==2.4.1",
+    "pandas==2.0.3",
+    "scikit-learn",
+    "optuna>=3.0.0",  
+    "xgboost",
+    "shap",
+    "scipy",
+    "boruta",
+    "imblearn",
+    "tqdm",
+    "requests",
+    "category_encoders",
+    "catboost"
+] 
